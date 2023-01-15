@@ -1,0 +1,40 @@
+h1{
+     text-shadow: 3px 3px 3px red;
+     text-shadow: 3px 3px  red,6px 6px 6px rgb(233, 250, 4);
+}
+h2{
+    
+    text-shadow: 3px 3px 3px red;
+     text-shadow: 3px 3px 1px red,200px 10px 3px rgb(233, 250, 4);
+}
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px;
+    color: red;
+}
+.box1{
+    background-color: rgb(255, 0, 72);
+    width: 200px;
+    height: 200px;
+    box-shadow: -10px -10px 10px;
+   color: greenyellow;
+} 
+.max_min_height{
+    max-height: 100px;
+    border: 2px solid white;
+    overflow: scroll;
+}
+.min_height{
+    margin: 10px;
+    min-height: 100px;
+    border: 2px solid white;
+}
+#overflow{
+    height: 100px;
+    width: 600px;
+    border: 2px solid white;
+    overflow: auto;
+
+}
